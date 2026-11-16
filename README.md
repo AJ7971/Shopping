@@ -1,4 +1,4 @@
-# Shopping Recommender — Stage 2
+# Shopping Recommender
 
 The Streamlit app uses the DummyJSON products endpoint as sample dataset content. It supports keyword, budget, brand, category, and minimum rating constraints. Choose **Lowest price (Stage 1)** to see up to five cheapest eligible records, or **Weighted recommendations** to score every eligible record on normalized price and rating. The weight slider controls price importance; rating receives the remaining weight. Brand/category/rating constraints exclude records with missing required attributes.
 
