@@ -1,4 +1,4 @@
-# Shopping Recommender
+# Shopping Recommender — Stage 2
 
 The Streamlit app uses the DummyJSON products endpoint as sample dataset content. It supports keyword, budget, brand, category, and minimum rating constraints. Choose **Lowest price (Stage 1)** to see up to five cheapest eligible records, or **Weighted recommendations** to score every eligible record on normalized price and rating. The weight slider controls price importance; rating receives the remaining weight. Brand/category/rating constraints exclude records with missing required attributes.
 
@@ -22,6 +22,6 @@ Tests mock the service and cover combined constraints and inclusive boundaries, 
 - Agent rules: `AGENTS.md`
 - Ranking skill: `.agents/skills/product-ranking/SKILL.md` (the original product-search skill remains in `.agents/skills/product-search/`)
 - Source and mocked tests: `app.py`, `tests/`
-- Development notes and reflection: `SUBMISSION_REPORT.md`
+- Stage reports: `STAGE1_REPORT.md`, `STAGE2_REPORT.md`, and `STAGE3_REPORT.md` (index: `SUBMISSION_REPORT.md`)
 
 Before submitting, capture a screenshot from the running app with several selected conditions and actual result cards. The controlled comparison of Codex with and without explicit skill invocation also remains to be completed; see `SUBMISSION_REPORT.md`.
